@@ -1,5 +1,5 @@
+import './App.css'
 import React from 'react'
-import './app.css'
 import ReactionIcon from './assets/images/icon-reaction.svg'
 import MemoryIcon from './assets/images/icon-memory.svg'
 import VerbalIcon from './assets/images/icon-verbal.svg'
