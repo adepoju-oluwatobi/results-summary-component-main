@@ -1,5 +1,9 @@
 import React from 'react'
 import './app.css'
+import ReactionIcon from './assets/images/icon-reaction.svg'
+import MemoryIcon from './assets/images/icon-memory.svg'
+import VerbalIcon from './assets/images/icon-verbal.svg'
+import VisualIcon from './assets/images/icon-visual.svg'
 
 function App() {
   return (
@@ -18,32 +22,32 @@ function App() {
 
         {/** ------------------ */}
         <div className='content'>
-          <p>Summary</p>
-          <div>
-            <img src="" alt="" />
-            <p>Reaction</p>
-            <p>
+          <p className='summary'>Summary</p>
+          <div className='summary-one'>
+            <img src={ReactionIcon} alt="" />
+            <p className='title'>Reaction</p>
+            <p className='scores'>
               80 / <span>100</span>
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Memory</p>
-             <p>
+          <div className='summary-two'>
+            <img src={MemoryIcon} alt="" />
+            <p className='title'>Memory</p>
+             <p className='scores'>
               92 / <span>100</span>
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Verbal</p>
-            <p>
+          <div className='summary-three'>
+            <img src={VerbalIcon} alt="" />
+            <p className='title'>Verbal</p>
+            <p className='scores'>
               61 / <span>100</span>
             </p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Visual</p>
-             <p>
+          <div className='summary-four'>
+            <img src={VisualIcon} alt="" />
+            <p className='title'>Visual</p>
+             <p className='scores'>
               72 / <span>100</span>
             </p>
           </div>

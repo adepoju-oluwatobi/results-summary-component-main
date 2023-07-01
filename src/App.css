@@ -23,13 +23,14 @@
 {
     font-weight: 300;
     opacity: 80%;
+    font-size: 14px;
 }
 .grade
 {
     background: linear-gradient(to right, #4e21ca, #2421ca00);
     width: 50px;
     height: 50px;
-    padding: 40px;
+    padding: 30px;
     border-radius: 100%;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@
 .grade .marks-obtained
 {
     font-weight: bold;
-    font-size: 52px;
+    font-size: 42px;
 }
 .grade .marks-obtainable
 {
@@ -47,16 +48,108 @@
 }
 .header .comment
 {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 550;
 }
 .comment-description
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
     opacity: 80%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
 }
-/*  #
+/* End of styles for header */
+
+/* Beginging of the content styles */
+.content
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.content .summary
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+.summary-one
+{
+    background: rgba(255, 0, 0, 0.046);
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.summary-two
+{
+    background: rgba(255, 217, 0, 0.046);
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+.summary-three {
+    background: rgba(0, 255, 55, 0.046);
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.summary-four {
+    background: rgba(51, 0, 255, 0.046);
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.summary-one .title
+{
+    color: red;
+    opacity: 60%;
+}
+.summary-two .title {
+    color: rgb(255, 157, 0);
+    opacity: 60%;
+}
+.summary-three .title {
+    color: rgb(0, 128, 53);
+    opacity: 60%;
+}
+.summary-four .title {
+    color: rgb(123, 0, 255);
+    opacity: 60%;
+}
+.content .scores
+{
+    font-weight: bold;
+}
+.content .scores span
+{
+    opacity: 40%;
+}
+.title
+{
+    font-weight: bold;
+    margin-left: -45px;
+}
+.content button
+{
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    background: hsl(224, 30%, 27%);
+}
 
