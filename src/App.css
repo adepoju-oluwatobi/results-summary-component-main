@@ -3,10 +3,6 @@
     margin: 0;
 }
 /* #2e2be9 #7857ff */
-.container
-{
-
-}
 .header
 {
     background: linear-gradient(to left, #2e2be9, #7857ff );
@@ -151,5 +147,37 @@
     color: white;
     border: none;
     background: hsl(224, 30%, 27%);
+}
+@media (min-width: 768px)
+{
+    .medium-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.112);
+    }
+    .header {
+        height: 380px;
+        width: 50%;
+        border-radius: 10px;
+        }
+    .content {
+        width: 50%;
+        height: 100%;
+        display: flex;                  
+        }
+                .comment-description {
+                    font-size: 14px;
+                    font-weight: lighter;
+                    opacity: 80%;
+                    text-align: center;
+                }
 }
 

@@ -7,7 +7,8 @@ import VisualIcon from './assets/images/icon-visual.svg'
 
 function App() {
   return (
-    <div className='conainer'>
+    <div className="medium-container">
+      <div className='container'>
       {/** TOP HEADER */}
         <div className='header'>
           <p className='heading'>Your Result</p>
@@ -54,6 +55,7 @@ function App() {
           <button>Continue</button>
         </div>
         {/** End of content */}
+    </div>
     </div>
   )
 }
