@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #2e2be9 #7857ff */
+.container
+{
+
+}
+.header
+{
+    background: linear-gradient(to left, #2e2be9, #7857ff );
+    padding: 20px 40px;
+    color: white;
+    height: 40vh;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .heading
+{
+    font-weight: 300;
+    opacity: 80%;
+}
+.grade
+{
+    background: linear-gradient(to right, #4e21ca, #2421ca00);
+    width: 50px;
+    height: 50px;
+    padding: 40px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grade .marks-obtained
+{
+    font-weight: bold;
+    font-size: 52px;
+}
+.grade .marks-obtainable
+{
+    opacity: 80%;
+}
+.header .comment
+{
+    font-size: 24px;
+    font-weight: 550;
+}
+.comment-description
+{
+    font-size: 16px;
+    font-weight: lighter;
+    opacity: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/*  #
+
