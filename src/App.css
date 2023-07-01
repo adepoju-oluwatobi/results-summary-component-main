@@ -179,5 +179,25 @@
                     opacity: 80%;
                     text-align: center;
                 }
+        .content button:hover{
+            background: #2e2be9;
+        }
+                .author {
+                    font-weight: bold;
+                    text-align: center;
+                    margin-top: -40px;
+                }
 }
+@media (min-width: 1024px){
+    .author {
+            font-weight: bold;
+            text-align: center;
+            margin-top: -100px;
+        }
+}
+.author {
+    text-align: center;
+    padding: 10px;
+}
+
 

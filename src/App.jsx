@@ -7,6 +7,7 @@ import VisualIcon from './assets/images/icon-visual.svg'
 
 function App() {
   return (
+    <>
     <div className="medium-container">
       <div className='container'>
       {/** TOP HEADER */}
@@ -57,6 +58,11 @@ function App() {
         {/** End of content */}
     </div>
     </div>
+    <div className='author'>
+      <p>Challenged by Frontend Mentor</p>
+    <p>Challenge solved by Adepoju Oluwatobi</p>
+    </div>
+    </>
   )
 }
 
